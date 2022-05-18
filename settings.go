@@ -11,6 +11,6 @@ const clientCacheCapacity = 10
 // http://www.kegel.com/c10k.html
 // https://stackoverflow.com/questions/1319965/how-many-requests-per-minute-are-considered-heavy-load-approximation
 // LPS - Low-pass filter
-const threshold = 5
-const alpha = 0.5
-const windowSize = 10
+const threshold = 50
+const alpha = 0.6
+const windowSize = 1
